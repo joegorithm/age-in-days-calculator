@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    padding: 20px;
+}
+
+.jh-logo {
+    width: 128px;
+    height: 128px;
+}
+
+.input-section {
+    margin-left: 30px;
+    padding: 20px;
+    width: 214px;
+    background-color: #15181d;
+    border-radius: 20px;
+}
+
+.details-text {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    color: white;
+    padding: 7px;
+}
+
+.explanation-text {
+    font-family: "Rubik", sans-serif;
+    font-size: 8vw;
+    font-weight: 400;
+    color: #ffffff8a;
+}
+
+#instructions {
+    font-size: 6vw;
+    margin-top: -6vh;
+    text-align: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.opening {
+    /* margin-left: 5vw; */
+    margin-top: -2vh;
+    text-align: center;
+}
+
+.ending {
+    /* margin-right: 4vw; */
+    text-align: right;
+    text-align: center;
+}
+
+.display-number {
+    line-height: 85%;
+    align-items: center;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 30vw;
+    font-weight: 700;
+    color: white;
+}
